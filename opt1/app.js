@@ -77,7 +77,7 @@ function reload(){
   
   async function sendData(mobileNumber){    
 
-       fetch('https://roaring-beignet-7002e4.netlify.app/.netlify/functions/index/send-verification-otp', {
+       fetch('https://opt-api.netlify.app/.netlify/functions/index/send-verification-otp', {
         method: 'POST',
         body: JSON.stringify({
             "mobileNumber":mobileNumber
@@ -108,7 +108,7 @@ function reload(){
 
     
 
-       fetch('https://roaring-beignet-7002e4.netlify.app/.netlify/functions/index/verify-otp', {
+       fetch('https://opt-api.netlify.app/.netlify/functions/index/verify-otp', {
   method: 'POST',
   body: JSON.stringify({
     "mobileNumber":mobileNumber,
