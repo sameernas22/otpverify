@@ -1,0 +1,114 @@
+.hidden{
+    display: none;
+}
+
+
+.foot{
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold
+}
+.foot img{
+    width: 60px;
+}
+.after{
+    font-size: 20px;
+    color: #3e8316;
+    font-weight: bold;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f6f6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    background: white;
+    text-align: center;
+    width: 100%;
+
+}
+.nav-bar img{
+    width: 200px;
+}
+
+form{
+   margin-top: 30px;
+    
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+form input{
+    font-size: 18px;
+    padding:10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: #b4f1e2;
+    
+}
+form input:focus{
+    background-color:rgb(183, 255, 183);
+
+}
+
+form h1{
+    margin: 10px 0px;
+}
+
+
+form div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+form div input{
+    width: 350px;
+}
+
+span{
+    font-size: 10px;
+    color: red;
+    padding: 10px;
+    position: relative;
+
+}
+
+button{
+    
+    font-size: 17px;
+    padding:10px 45px ;
+    background: linear-gradient(50deg,#62b036,#06aac1);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    margin-top: 30px;
+}
+
+button:hover{
+    color: black;
+   
+}
